@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>My Second Spring application</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<form action="/add" method="POST">
+    <p>Let's add a customer.</p>
+
+    <div>
+        <label for="firstName">First name:</label>
+        <input name="first" id="firstName" value="Kush">
+    </div>
+    <div>
+        <label for="lastName">Last name:</label>
+        <input name="last" id="lastName" value="Official">
+    </div>
+    <div>
+        <button>Add customer</button>
+    </div>
+</form>
+
+<hr/>
+
+<form action="/list" method="GET">
+    <button>List customers</button>
+</form>
+</body>
+</html>
